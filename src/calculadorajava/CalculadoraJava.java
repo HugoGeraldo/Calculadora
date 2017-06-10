@@ -15,7 +15,10 @@ public class CalculadoraJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Divisao d =new Divisao();
+       Subitracao s =new Subitracao();
+       d.divisao(20, 5);
+       s.subitracao(20, 10);
     }
     
 }
