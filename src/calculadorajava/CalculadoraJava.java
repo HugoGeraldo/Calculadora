@@ -16,6 +16,13 @@ public class CalculadoraJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        double n1=10,n2=10;
+        Soma testesoma= new Soma();
+        Multiplicacao testemutiplicacao = new Multiplicacao();
+        testesoma.soma(n1,n2);
+        testemutiplicacao.multiplicacao(n1,n2);
+        
+        
     }
     
 }
